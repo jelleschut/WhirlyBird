@@ -1,0 +1,212 @@
+[
+  {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 1,
+    "fields": {
+      "name": "Burnside",
+      "city": "Emst",
+      "latitude": 52.309563,
+      "longitude": 5.998715
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 2,
+    "fields": {
+      "name": "Skeef",
+      "city": "Heerhugowaard",
+      "latitude": 52.644237,
+      "longitude": 4.796817
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 3,
+    "fields": {
+      "name": "W2O",
+      "city": "Erm",
+      "latitude": 52.750357,
+      "longitude": 6.802275
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 4,
+    "fields": {
+      "name": "CablePark Almere",
+      "city": "Almere",
+      "latitude": 52.357835,
+      "longitude": 5.214986
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 5,
+    "fields": {
+      "name": "Waterski Twente",
+      "city": "Enschede",
+      "latitude": 52.181164,
+      "longitude": 6.841112
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 6,
+    "fields": {
+      "name": "WakePark 0712",
+      "city": "Alphen aan den Rijn",
+      "latitude": 52.135587,
+      "longitude": 4.677567
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 7,
+    "fields": {
+      "name": "Wollebrand",
+      "city": "Honselersdijk",
+      "latitude": 51.992981,
+      "longitude": 4.239995
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 8,
+    "fields": {
+      "name": "Down Under",
+      "city": "Nieuwegein",
+      "latitude": 52.048983,
+      "longitude": 5.124059
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 9,
+    "fields": {
+      "name": "De Schotsman",
+      "city": "Kamperland",
+      "latitude": 51.571584,
+      "longitude": 3.651921
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 10,
+    "fields": {
+      "name": "De Arne",
+      "city": "Arnemuiden",
+      "latitude": 51.516348,
+      "longitude": 3.696349
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 11,
+    "fields": {
+      "name": "Aquabest",
+      "city": "Best",
+      "latitude": 51.498865,
+      "longitude": 5.434223
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 12,
+    "fields": {
+      "name": "De Kempervennen",
+      "city": "Westerhoven",
+      "latitude": 51.327900,
+      "longitude": 5.426274
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 13,
+    "fields": {
+      "name": "De IJzeren Man",
+      "city": "Weert",
+      "latitude": 51.241785,
+      "longitude": 5.672257
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 14,
+    "fields": {
+      "name": "Fun Beach",
+      "city": "Panheel",
+      "latitude": 51.176860,
+      "longitude": 5.862630
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 15,
+    "fields": {
+      "name": "Seven Twenty",
+      "city": "Sevenum",
+      "latitude": 51.382033,
+      "longitude": 5.971026
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 16,
+    "fields": {
+      "name": "Break Out",
+      "city": "Harkstede",
+      "latitude": 53.213039,
+      "longitude": 6.661549
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 17,
+    "fields": {
+      "name": "Blue Bay",
+      "city": "Veendam",
+      "latitude": 53.104573,
+      "longitude": 6.843723
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 18,
+    "fields": {
+      "name": "De Berendonck",
+      "city": "Wijchen",
+      "latitude": 51.811675,
+      "longitude": 5.771609
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 19,
+    "fields": {
+      "name": "Stroombroek",
+      "city": "Braamt",
+      "latitude": 51.937355,
+      "longitude": 6.271009
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 20,
+    "fields": {
+      "name": "Zeumeren",
+      "city": "Voorthuizen",
+      "latitude": 52.175047,
+      "longitude": 5.620564
+    }
+  },
+    {
+    "model": "whirlybird_backend.CableParks",
+    "pk": 21,
+    "fields": {
+      "name": "Ride the Beast",
+      "city": "Beesd",
+      "latitude": 51.897830,
+      "longitude": 5.184358
+    }
+  }
+]

@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from whirlybird_backend import views
+from rest_framework.urlpatterns import format_suffix_patterns
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('cableparks/', views.cableparks_list),
+    path('cableparks/<int:pk>', views.cableparks_detail),
 ]
+
+urlpatterns = format_suffix_patterns(urlpatterns)
