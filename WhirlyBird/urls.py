@@ -15,12 +15,26 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from whirlybird_backend import views
+from whirlybird_backend import views, tasks
 from rest_framework.urlpatterns import format_suffix_patterns
+from rest_framework_jwt.views import obtain_jwt_token
+from background_task.models import Task
 
 urlpatterns = [
-    path('cableparks/', views.cableparks_list),
-    path('cableparks/<int:pk>', views.cableparks_detail),
+    path('admin/', admin.site.urls),
+    path('obtain-auth/', obtain_jwt_token),
+    path('api/cableparks/', views.cableparks_list),
+    path('api/cableparks/<int:pk>', views.cableparks_detail),
+    path('api/weatherdata/', views.cableparks_list),
+    path('api/register', views.create_user),
+    path('api/summarized/<int:pk>', views.summarized_weather),
+    path('api/forecast/<int:pk>', views.weather),
+    path('api/user', views.user_profile),
+    path('api/review/<int:pk>', views.review_score),
+    path('api/postreview', views.post_review_score),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
+
+if not Task.objects.filter(verbose_name="update_predicted_weather").exists():
+    tasks.update_predicted_weather(repeat=Task.DAILY, repeat_until=None, verbose_name="update_predicted_weather")

@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 # Create your models here.
 
 
@@ -11,37 +12,20 @@ class CableParks(models.Model):
     website = models.URLField()
 
 
-class Reviews(models.Model):
+class Review(models.Model):
 
-    name = models.OneToOneField(CableParks, on_delete=models.CASCADE, primary_key=True)
-    score = models.FloatField(default=0.0)
-
-
-class Icon(models.Model):
-
-    name = models.CharField(max_length=128)
-    image = models.BinaryField()
+    name = models.ForeignKey(CableParks, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    score = models.IntegerField(default=0)
 
 
-class PredictionPerHour(models.Model):
+class WeatherPredictions(models.Model):
 
     location = models.ForeignKey(CableParks, on_delete=models.CASCADE)
-    image = models.ForeignKey(Icon, on_delete=models.CASCADE)
+    image = models.CharField(max_length=64)
     date = models.DateField()
     time = models.TimeField()
     temperature = models.IntegerField()
-    precipitation = models.FloatField()
-    wind_force = models.IntegerField()
-    wind_direction = models.CharField(max_length=5)
-
-
-class PredictionPerDay(models.Model):
-
-    location = models.ForeignKey(CableParks, on_delete=models.CASCADE)
-    image = models.ForeignKey(Icon, on_delete=models.CASCADE)
-    date = models.DateField()
-    min_temp = models.IntegerField()
-    max_temp = models.IntegerField()
     precipitation = models.FloatField()
     wind_force = models.IntegerField()
     wind_direction = models.CharField(max_length=5)

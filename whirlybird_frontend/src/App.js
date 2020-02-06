@@ -1,16 +1,17 @@
 import React from 'react';
+import {useRoutes} from 'hookrouter'
+import Routes from "./utils/router";
 import './App.css';
-import Home from "./components/Home";
-import Header from "./components/Header";
+import Header from './components/Header';
 
-
-function App() {
+const App = () => {
+    const routeResult = useRoutes(Routes);
     return (
         <div>
             <Header/>
-            <Home/>
+            {routeResult}
         </div>
     );
-}
+};
 
 export default App;

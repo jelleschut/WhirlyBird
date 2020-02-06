@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    background-color: #343a40 !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.name-location {
+    width: 50%;
+}
+
+.list-group-item.no-border {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.small-image {
+    height: 2rem;
+}
+
+.extra-small-image {
+    height: 1rem;
+}
+
+.registerlink {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonbox {
+    display: flex;
+    justify-content: space-evenly;
+}

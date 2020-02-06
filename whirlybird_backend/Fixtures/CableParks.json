@@ -6,7 +6,8 @@
       "name": "Burnside",
       "city": "Emst",
       "latitude": 52.309563,
-      "longitude": 5.998715
+      "longitude": 5.998715,
+      "website": "https://www.burnsidecablepark.nl/"
     }
   },
     {
@@ -16,7 +17,8 @@
       "name": "Skeef",
       "city": "Heerhugowaard",
       "latitude": 52.644237,
-      "longitude": 4.796817
+      "longitude": 4.796817,
+      "website": "http://www.skeef.nl/"
     }
   },
     {
@@ -26,17 +28,19 @@
       "name": "W2O",
       "city": "Erm",
       "latitude": 52.750357,
-      "longitude": 6.802275
+      "longitude": 6.802275,
+      "website": "https://ermerstrand.nl/"
     }
   },
     {
     "model": "whirlybird_backend.CableParks",
     "pk": 4,
     "fields": {
-      "name": "CablePark Almere",
+      "name": "CablePark View",
       "city": "Almere",
       "latitude": 52.357835,
-      "longitude": 5.214986
+      "longitude": 5.214986,
+      "website": "https://cableparkviewalmere.nl/"
     }
   },
     {
@@ -46,17 +50,19 @@
       "name": "Waterski Twente",
       "city": "Enschede",
       "latitude": 52.181164,
-      "longitude": 6.841112
+      "longitude": 6.841112,
+      "website": "https://www.waterskitwente.nl/"
     }
   },
     {
     "model": "whirlybird_backend.CableParks",
     "pk": 6,
     "fields": {
-      "name": "WakePark 0712",
+      "name": "Wet 'n' Wild",
       "city": "Alphen aan den Rijn",
       "latitude": 52.135587,
-      "longitude": 4.677567
+      "longitude": 4.677567,
+      "website": "https://www.wetnwild.nl/"
     }
   },
     {
@@ -66,7 +72,8 @@
       "name": "Wollebrand",
       "city": "Honselersdijk",
       "latitude": 51.992981,
-      "longitude": 4.239995
+      "longitude": 4.239995,
+      "website": "https://www.kabelskibaan.nl/"
     }
   },
     {
@@ -76,7 +83,8 @@
       "name": "Down Under",
       "city": "Nieuwegein",
       "latitude": 52.048983,
-      "longitude": 5.124059
+      "longitude": 5.124059,
+      "website": "https://www.downunder.nl/cablepark"
     }
   },
     {
@@ -86,7 +94,8 @@
       "name": "De Schotsman",
       "city": "Kamperland",
       "latitude": 51.571584,
-      "longitude": 3.651921
+      "longitude": 3.651921,
+      "website": "https://www.schotsmanwatersport.nl/"
     }
   },
     {
@@ -96,7 +105,8 @@
       "name": "De Arne",
       "city": "Arnemuiden",
       "latitude": 51.516348,
-      "longitude": 3.696349
+      "longitude": 3.696349,
+      "website": "https://www.watersportverhuurbedrijfdearne.nl/watersport/"
     }
   },
     {
@@ -106,7 +116,8 @@
       "name": "Aquabest",
       "city": "Best",
       "latitude": 51.498865,
-      "longitude": 5.434223
+      "longitude": 5.434223,
+      "website": "https://www.cableparkaquabest.nl/"
     }
   },
     {
@@ -116,7 +127,8 @@
       "name": "De Kempervennen",
       "city": "Westerhoven",
       "latitude": 51.327900,
-      "longitude": 5.426274
+      "longitude": 5.426274,
+      "website": "https://www.hetwaterskicentrum.nl/"
     }
   },
     {
@@ -126,7 +138,8 @@
       "name": "De IJzeren Man",
       "city": "Weert",
       "latitude": 51.241785,
-      "longitude": 5.672257
+      "longitude": 5.672257,
+      "website": "http://www.ijzerenmanweert.nl/blz/waterskibaan.html"
     }
   },
     {
@@ -136,7 +149,8 @@
       "name": "Fun Beach",
       "city": "Panheel",
       "latitude": 51.176860,
-      "longitude": 5.862630
+      "longitude": 5.862630,
+      "website": "https://www.funbeach.nl/"
     }
   },
     {
@@ -146,7 +160,8 @@
       "name": "Seven Twenty",
       "city": "Sevenum",
       "latitude": 51.382033,
-      "longitude": 5.971026
+      "longitude": 5.971026,
+      "website": "https://www.seven-twenty.nl/"
     }
   },
     {
@@ -156,7 +171,8 @@
       "name": "Break Out",
       "city": "Harkstede",
       "latitude": 53.213039,
-      "longitude": 6.661549
+      "longitude": 6.661549,
+      "website": "https://breakout-grunopark.nl/activiteiten-groningen/activiteit/wateractiviteiten/waterskien/"
     }
   },
     {
@@ -166,7 +182,8 @@
       "name": "Blue Bay",
       "city": "Veendam",
       "latitude": 53.104573,
-      "longitude": 6.843723
+      "longitude": 6.843723,
+      "website": "http://www.watersportcentre.nl/"
     }
   },
     {
@@ -176,7 +193,8 @@
       "name": "De Berendonck",
       "city": "Wijchen",
       "latitude": 51.811675,
-      "longitude": 5.771609
+      "longitude": 5.771609,
+      "website": "https://deberendonck.nl/"
     }
   },
     {
@@ -186,7 +204,8 @@
       "name": "Stroombroek",
       "city": "Braamt",
       "latitude": 51.937355,
-      "longitude": 6.271009
+      "longitude": 6.271009,
+      "website": "https://kabelwaterskibaan.nl/index"
     }
   },
     {
@@ -196,7 +215,8 @@
       "name": "Zeumeren",
       "city": "Voorthuizen",
       "latitude": 52.175047,
-      "longitude": 5.620564
+      "longitude": 5.620564,
+      "website": "https://www.zeumeren.nl/waterski/"
     }
   },
     {
@@ -206,7 +226,8 @@
       "name": "Ride the Beast",
       "city": "Beesd",
       "latitude": 51.897830,
-      "longitude": 5.184358
+      "longitude": 5.184358,
+      "website": "https://ridethebeastwakeboardcablepark.dutchnic.com/"
     }
   }
 ]

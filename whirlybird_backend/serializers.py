@@ -1,12 +1,18 @@
 from rest_framework import serializers
-from whirlybird_backend.models import PredictionPerDay, PredictionPerHour, CableParks
+from whirlybird_backend.models import WeatherPredictions, CableParks, Review
 from django.contrib.auth.models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'username', 'email']
+        fields = ['username', 'email', 'password', 'first_name', 'last_name']
+
+
+class FullUserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['id', 'username', 'email', 'is_superuser', 'first_name', 'last_name']
 
 
 class CableParksSerializer(serializers.ModelSerializer):
@@ -15,13 +21,13 @@ class CableParksSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'city', 'website']
 
 
-class PredictionPerDaySerializer(serializers.ModelSerializer):
+class WeatherPredictionsSerializer(serializers.ModelSerializer):
     class Meta:
-        model = PredictionPerDay
+        model = WeatherPredictions
         fields = "__all__"
 
 
-class PredictionPerHourSerializer(serializers.ModelSerializer):
+class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
-        model = PredictionPerHour
-        fields = "__all__"
+        model = Review
+        fields = ['user', 'name', 'score', ]
